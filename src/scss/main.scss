@@ -1,0 +1,14 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+// малые компоненты
+@import "./components/text";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/slider";
+
+// тестовые стили, удалите их
+
