@@ -6,4 +6,45 @@
     line-height: 110%;
     /* 44px */
     text-transform: uppercase;
+
+    h3 {
+        color: var(--Color_2, #000);
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 28.8px */
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: var(--Color_4, #6E6E6E);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        text-transform: none;
+        /* 26px */
+    }
+
+    &__list {
+        display: flex;
+        gap: 60px;
+    }
+&__item {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+    &__img {
+
+        max-width: 570px;
+
+        &--reverse {
+            order: 2;
+        }
+    }
 }
