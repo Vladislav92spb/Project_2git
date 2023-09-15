@@ -1,4 +1,6 @@
 .works {
+
+    padding-bottom: 206px;
     &__title {
         position: relative;
     }
@@ -6,7 +8,7 @@
         position: absolute;
         top: 0px;
         left: 654px;
-        width: 250%;
+        width: 100vw;
         /* 26px */
         background-color: #FAFAFA;
         height: 170px;
