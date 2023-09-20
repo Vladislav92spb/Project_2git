@@ -1,0 +1,36 @@
+.call {
+    background-color: #F0C631;
+   
+    &__wrapper {
+        //width: 100wv;
+        display: flex;
+        //width: 1600px;
+        padding-top: 43px;
+        padding-bottom: 43px;
+        //padding: 43px 200px;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    &__title {
+        color: var(--Color_2, #000);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 110%;
+        /* 44px */
+        text-transform: uppercase;
+    }
+
+    &__tel {
+        color: var(--Color_2, #000);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 110%;
+        /* 44px */
+        text-transform: uppercase;
+    }
+    &__link {
+        color: #000;
+    }
+}
