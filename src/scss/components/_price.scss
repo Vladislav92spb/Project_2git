@@ -1,6 +1,14 @@
 .price {
     &__wrapper {
+        margin-top: 206px;
         margin-bottom: 64px;
+       position: relative;
+    }
+    &__vector2 {
+        position: absolute;
+        top: 0;
+        left: calc(673px + 275px);
+        width: 245px;
     }
 
     &__title {
@@ -48,6 +56,7 @@
         display: grid;
         grid-template-rows: 105px 105px 105px 105px 105px;
         grid-template-columns: 1fr 1fr;
+        width: 1200px;
 
     }
 
