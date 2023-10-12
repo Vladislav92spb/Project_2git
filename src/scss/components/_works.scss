@@ -1,9 +1,11 @@
 .works {
 
     padding-bottom: 206px;
+
     &__title {
         position: relative;
     }
+
     &__subtitle2 {
         position: absolute;
         top: 0px;
@@ -12,7 +14,13 @@
         /* 26px */
         background-color: #FAFAFA;
         height: 170px;
-    
+
+        @media (max-width:1300px) {
+
+            position: static;
+            width: 100%;
+        }
+
     }
 
     &__txt {
@@ -23,6 +31,11 @@
         line-height: 130%;
         height: 170px;
         width: 546px;
+
+        @media (max-width: 1300px) {
+            padding: 20px 0 20px 24px;
+            margin: 0;
+        }
     }
 
     h2 {
@@ -43,6 +56,11 @@
         /* 26px */
         width: 445px;
         margin-bottom: 96px;
+
+        @media (max-width: 1300px) {
+            margin-bottom: 30px;
+        }
+
     }
 
     h3 {
@@ -71,12 +89,23 @@
     &__list {
         display: flex;
         gap: 60px;
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+            gap: 30px;
+        }
     }
 
     &__item {
         display: flex;
         flex-direction: column;
         gap: 64px;
+        width: calc(50% - 30px);
+
+        @media (max-width: 767px) {
+            width: 100%;
+            gap: 20px;
+        }
     }
 
     &__img {
@@ -85,6 +114,11 @@
 
         &--reverse {
             order: 2;
+
+            @media (max-width: 767px) {
+                order: 0;
+            }
+
         }
     }
 }

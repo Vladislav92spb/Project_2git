@@ -7,7 +7,6 @@
         padding-top: 100px;
         padding-bottom: 63px;
         display: flex;
-        width: 1200px;
         background-color: #000;
         border-bottom: 1px solid #6E6E6E;
 
@@ -21,10 +20,15 @@
         font-weight: 600;
         line-height: 120%;
         /* 21.6px */
+
+        @media (max-width: 992px) {
+            margin-left: auto;
+        }
+
     }
 
     &__tel {
-        margin-left: 246px;
+        margin-left: auto;
         color: var(--Color_4, #6E6E6E);
         font-size: 18px;
         font-weight: 600;

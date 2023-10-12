@@ -3,12 +3,29 @@
         margin-top: 206px;
         margin-bottom: 64px;
        position: relative;
+
+       @media (max-width: 1300px) {
+        margin-top: 0px;
+        margin-bottom:0px;
+        padding-bottom: 136px;
+        margin-bottom: 30px;
+    }
     }
     &__vector2 {
         position: absolute;
         top: 0;
-        left: calc(673px + 275px);
+        right: 0;
+        //left: calc(673px + 275px);
         width: 245px;
+
+        @media (max-width: 1300px) {
+           top: auto;
+           bottom: 0;
+           left: 0;
+        }
+
+
+        
     }
 
     &__title {
@@ -56,7 +73,7 @@
         display: grid;
         grid-template-rows: 105px 105px 105px 105px 105px;
         grid-template-columns: 1fr 1fr;
-        width: 1200px;
+      //  width: 1200px;
 
     }
 
