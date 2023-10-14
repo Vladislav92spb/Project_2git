@@ -40,6 +40,18 @@
         line-height: 110%;
         /* 44px */
         text-transform: uppercase;
+
+        @media (max-width: 576px) {
+            color: var(--Color_2, #000);
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 110%;
+            /* 22px */
+            text-transform: uppercase;
+        }
+
     }
 
 
@@ -48,6 +60,18 @@
     &__text {
         margin-top: 40px;
         color: var(--color-4, #6E6E6E);
+
+        @media (max-width: 576px) {
+            width: 300px;
+            color: var(--Color_4, #6E6E6E);
+
+            /* Body */
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 130%;
+            /* 26px */
+        }
+
 
         /* 26px */
     }
@@ -75,6 +99,8 @@
         margin-top: 30px;
         margin-left: 30px;
 
+
+
     }
 
     &__img1i1 {
@@ -91,6 +117,12 @@
         flex-shrink: 0;
         margin-right: 9px;
 
+        @media (max-width: 576px) {
+            width: 300px;
+            height: 300px;
+        }
+
+
     }
 
     &__item2 {
@@ -100,6 +132,11 @@
         height: 300px;
         flex-shrink: 0;
         margin-right: 9px;
+
+        @media (max-width: 576px) {
+            width: 300px;
+            height: 300px;
+        }
     }
 
     &__item3 {
@@ -108,6 +145,11 @@
         height: 300px;
         flex-shrink: 0;
         margin-right: 9px;
+
+        @media (max-width: 576px) {
+            width: 300px;
+            height: 300px;
+        }
     }
 
     &__p {
@@ -119,7 +161,36 @@
         font-style: normal;
         font-weight: 500;
         line-height: 120%;
+
         /* 28.8px */
+        @media (max-width: 576px) {
+            color: #000;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 120%;
+            /* 24px */
+        }
+
+        &--p1 {
+            width: 221px;
+        }
+
+        &--p2 {
+            width: 270px;
+            margin-left: 20px;
+            color: #000;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 120%;
+            /* 24px */
+        }
+
+        &--p3 {
+            width: 239px;
+        }
+
     }
 
     &__span {
@@ -127,5 +198,14 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 120%;
+
+        @media (max-width: 576px) {
+            color: #73640A;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 120%;
+        }
+
+
     }
 }

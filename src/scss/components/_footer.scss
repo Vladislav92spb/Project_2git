@@ -10,8 +10,21 @@
         background-color: #000;
         border-bottom: 1px solid #6E6E6E;
 
+        @media (max-width: 576px) {
+            display: flex;
+            flex-direction: column;
+            padding-top: 40px;
+        }
+
     }
 
+    &__logo {
+        @media (max-width: 576px) {
+            width: 104px;
+        height: 16px;
+        }
+       
+    }
 
     &__email {
         margin-left: 454px;
@@ -24,6 +37,11 @@
         @media (max-width: 992px) {
             margin-left: auto;
         }
+        @media (max-width: 576px) {
+            margin-left: 0;
+            margin-top: 40px;
+        }
+
 
     }
 
@@ -34,6 +52,10 @@
         font-weight: 600;
         line-height: 120%;
         /* 21.6px */
+        @media (max-width: 576px) {
+            margin-left: 0;
+            margin-top: 26px;
+        }
     }
 
     &__security {
@@ -47,6 +69,10 @@
         /* 16.8px */
         letter-spacing: 0.7px;
         text-transform: uppercase;
+        
+        @media (max-width: 576px) {
+            padding-top: 18px;
+        }
     }
 
     &__link {

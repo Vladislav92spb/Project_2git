@@ -16,6 +16,8 @@
            align-items: center;
            gap: 20px;
         }
+       
+
 
     }
 
@@ -26,6 +28,10 @@
         line-height: 110%;
         /* 44px */
         text-transform: uppercase;
+
+        @media (max-width: 576px) {
+            font-size: 24px;
+        }
     }
 
     &__tel {
@@ -35,6 +41,10 @@
         line-height: 110%;
         /* 44px */
         text-transform: uppercase;
+
+        @media (max-width: 576px) {
+            font-size: 24px;
+        }
     }
     &__link {
         color: #000;

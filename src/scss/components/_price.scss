@@ -3,6 +3,8 @@
         margin-top: 206px;
         margin-bottom: 64px;
        position: relative;
+      
+
 
        @media (max-width: 1300px) {
         margin-top: 0px;
@@ -24,6 +26,15 @@
            left: 0;
         }
 
+        @media (max-width: 576px) {
+            
+         }
+
+       
+    
+
+        
+
 
         
     }
@@ -37,10 +48,19 @@
         line-height: 110%;
         /* 44px */
         text-transform: uppercase;
+        @media (max-width: 576px) {
+            font-size: 20px;
+            margin-bottom: 20px;
+         }
+        
     }
 
     &__subtitle {
         margin-bottom: 62px;
+
+        @media (max-width: 576px) {
+            margin-bottom: 30px;
+         }
     }
 
 
@@ -52,11 +72,17 @@
         font-weight: 700;
         line-height: 130%;
         /* 26px */
+        @media (max-width: 576px) {
+            font-size: 18px;
+         }
+
     }
 
     &__sp2 {
         color: #6E6E6E;
-        
+        @media (max-width: 576px) {
+            font-size: 20px;
+         }
     }
 
     &__sp3 {
@@ -66,6 +92,9 @@
         font-style: normal;
         font-weight: 500;
         line-height: 130%;
+        @media (max-width: 576px) {
+            font-size: 18px;
+         }
     }
 
 
@@ -74,6 +103,8 @@
         grid-template-rows: 105px 105px 105px 105px 105px;
         grid-template-columns: 1fr 1fr;
       //  width: 1200px;
+      
+   
 
     }
 
@@ -87,6 +118,12 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 120%;
+        @media (max-width: 576px) {
+            font-size: 18px;
+         }
+
+
+
 
         /* 24px */
         span {
@@ -94,6 +131,10 @@
             font-size: 20px;
             font-weight: 500;
             line-height: 130%;
+
+            @media (max-width: 576px) {
+                font-size: 18px;
+             }
             /* 26px */
         }
 
@@ -107,6 +148,9 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 130%; /* 26px */
+        @media (max-width: 576px) {
+            font-size: 18px;
+         }
        
 
 
@@ -118,6 +162,9 @@
             line-height: 130%;
              opacity: 0.8;
             /* 26px */
+            @media (max-width: 576px) {
+                font-size: 18px;
+             }
         }
 
     }
