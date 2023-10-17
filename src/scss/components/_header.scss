@@ -13,9 +13,14 @@
 
 
   &__logo {
-    @media (max-width: 576px) {
-      width: 104px;
-      height: 16px;
+
+    @media (max-width: 767px) {
+  
+        width: 104px;
+        height: 16px;
+        
+      
+
     }
   }
 
@@ -35,9 +40,7 @@
     display: flex;
     gap: 45px;
 
-    @media (max-width: 767px) {
-      display: none;
-    }
+
 
   }
 
@@ -68,6 +71,12 @@
       border-bottom: 2px solid #F0C631;
     }
 
+  }
+
+  &__nav {
+    @media (max-width: 767px) {
+      display: none;
+    }
   }
 
   &__tel {
@@ -161,7 +170,9 @@
     align-items: flex-start;
     gap: 10px;
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; //all 0.3s
-    
+
+
+
     @media (max-width: 576px) {
       display: flex;
       width: 300px;
@@ -169,20 +180,21 @@
       justify-content: center;
       align-items: center;
       gap: 10px;
-    &:hover {
-      background-color: #f1b510;
+
+      &:hover {
+        background-color: #f1b510;
+      }
+
+      &:active {
+        background-color: #d79437;
+        box-shadow: 0px 3px 0px 0px rgba(0, 1, 1, 0.10) inset;
+        color: rgba($color: #ffffff, $alpha: 0.3);
+      }
+
+
     }
 
-    &:active {
-      background-color: #d79437;
-      box-shadow: 0px 3px 0px 0px rgba(0, 1, 1, 0.10) inset;
-      color: rgba($color: #ffffff, $alpha: 0.3);
-    }
 
-   
-    }
-
-   
 
 
   }
@@ -200,5 +212,15 @@
 
   }
 
+  &__btn-menu {
+    display: none;
+
+    @media (max-width: 767px) {
+      display: block;
+      width: 20px;
+      height: 16px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16' fill='none'%3E%3Crect y='14' width='20' height='2' fill='white'/%3E%3Crect y='7' width='20' height='2' fill='white'/%3E%3Crect width='20' height='2' fill='white'/%3E%3C/svg%3E");
+    }
+  }
 
 }
